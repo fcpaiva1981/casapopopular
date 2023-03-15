@@ -1,0 +1,4 @@
+rootProject.name = 'casaspopulares'
+include 'domain'
+include 'application'
+include 'infrastructure'

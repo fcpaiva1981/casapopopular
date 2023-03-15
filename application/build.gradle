@@ -1,0 +1,15 @@
+plugins {
+    id 'java-conventions'
+    id 'java-library'
+}
+
+group 'br.com.fcpaiva.application'
+
+dependencies {
+    implementation(project(":domain"))
+    implementation project(path: ':')
+    implementation project(path: ':')
+
+
+    testImplementation(project(path: ':domain', configuration: 'testClasses'))
+}
